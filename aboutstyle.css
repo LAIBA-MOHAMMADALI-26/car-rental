@@ -287,3 +287,48 @@ font-family:sans-serif;
       opacity: 1;
     }
   }
+/* 
+  RESPONSIVENESS */
+
+  @media (max-width:1024px) {
+    .navbar{
+      width: 1200px;
+    }
+    .flex1 img{
+      width: 1200px;
+    }
+    .centered{
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    .flex2{
+      width: 1200px;
+    }
+    .flex3 img{
+      width: 400px;
+      height: 300px;
+    }
+    .flex4{
+      width: 1200px;
+    }
+
+    .flex4 img{
+      width: 800px;
+    }
+    .flex4 h1{
+      font-size:30px;
+    }
+  }
+
+  @media(max-wuidth:425px) {
+    flex1 .centered{
+     text-align:center;
+      font-size: 20px;
+      
+
+    }
+    .flex2 h1 i{
+text-align: left;
+    }
+
+  }
