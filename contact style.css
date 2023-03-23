@@ -146,7 +146,7 @@ margin-top: 20px;
     background: none;
     border: none;
     border-bottom: 2px solid yellow;
-    color: #fff;
+    color:  black;
     font-weight: 200px;
     font-size: 15px;
     padding: 10px;
@@ -183,8 +183,8 @@ textarea::-webkit-scrollbar-thumb{
 }
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
+    background-color: #ffc61a;
+    color:black;
   }
   
   .footer-basic ul {
@@ -224,7 +224,7 @@ textarea::-webkit-scrollbar-thumb{
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:1px solid black;
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -240,4 +240,12 @@ textarea::-webkit-scrollbar-thumb{
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+  }
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:black;
+    margin-bottom:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }

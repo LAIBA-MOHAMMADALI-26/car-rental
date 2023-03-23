@@ -1,4 +1,11 @@
 /* navbar css */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .navbar {
     float: left;
     width: 100%;
@@ -41,10 +48,23 @@ margin-top: 0px;
   background-color: #555;
   overflow: auto;
 }
+#menu-bars{
+  color: white;
+  font-size: 2rem;
+  display: none;
 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 7%;
+  align-items: center;
+}
 .navbar a {
   float: left;
   padding: 15px;
+  padding-top: 15px;
   margin-left: 20px;
   color: white;
   text-decoration: none;

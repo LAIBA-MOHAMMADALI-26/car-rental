@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vehicle Models</title>
     <link rel="stylesheet" href="style1.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <!-- new links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +19,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- import 'car-makes-icons/dist/style.css'; -->
 </head>
-<body style="background-color:#ffc61a;font-family: 'Oxygen', sans-serif;margin-top: 0%;">
+<body style="background-color:#ffc61a;margin-top: 0%;">
+
+
   <!-- navbar -->
   <div class="navbar sticky-top" style="margin-top: 0px;">
     <a class="active" style="color:black" href="./index.html"><i class="fa fa-home" aria-hidden="true" style="color:black"></i>Home</a> 
@@ -25,12 +31,17 @@
     <a href="./login.html" ><i class="fa fa-fw fa-user"></i> Login</a>
   </div>
 <!-- navbar ends -->
+
     <div class="carmodels">
+
         <h1 class="vehicle">VEHICLE MODELS</h1>
     </div>
 <br>
-<div class="cars">
 
+
+<!-- side bar showing all car brands -->
+<section>
+<div class="cars">
 
     <table width="300px" height="600px" border="2" class="tab">
         <th>Car Brands</th>
@@ -56,11 +67,12 @@
         </tr>
 
     </table>
-   
+    <!-- .. -->
+
+<!-- DETAILS OF CARS -->
    <div class="flexing" data-aos="flip-up">
 
- 
-
+  <!-- CAR 1   -->
   <div class="card" data-aos="flip-up">
     <img style="display:inline;" class="card-img-top flex" width="500px" height="350px" src="car4.jfif" alt="Card image cap">
     
@@ -71,7 +83,7 @@
 </tr>
 <!-- <hr> -->
 <tr>
-<td>Model:Skyline Gtr r34</td>
+<td>Model:Skyline</td>
 </tr>
 <tr>
 <td>Color: Black</td>
@@ -95,7 +107,7 @@
 </table>
     </div>
  
-
+<!-- CAR 2 -->
     <div class="card" data-aos="flip-down">
       <img style="display:inline;" class="card-img-top flex" width="500px" height="350px" src="car1.jfif" alt="Card image cap">
       
@@ -127,7 +139,7 @@
   </tr>
   </table>
       </div>
-   
+   <!-- CAR 3 -->
       <div class="card" data-aos="flip-up">
         <img style="display:inline;" class="card-img-top flex" width="500px" height="350px" src="car3.jfif" alt="Card image cap">
         
@@ -157,10 +169,10 @@
     <tr>
       <td><button type="button" >Reserve</button></td>
     </tr>
-    <!-- <button type="button" class="btn btn-success">Success</button> -->
+    
     </table>
         </div>
-     
+     <!-- CAR 4 -->
         <div class="card" data-aos="flip-down">
           <img style="display:inline;" class="card-img-top flex" width="500px" height="350px" src="car2.jfif" alt="Card image cap">
           
@@ -194,20 +206,15 @@
       </table>
           </div>
        
-            
+    <!-- CAR 5         -->
 
 <div class="card" data-aos="flip-up">
   <img style="display:inline;" class="card-img-top flex" width="500px" height="350px" src="car5.jfif" alt="Card image cap">
-  
-  <!-- <button>Rent A Car</button> -->
   
 <table class="table2" >
   <th id="details" style="font-size:25px;">DETAILS</th>
 <tr>
 <td>Make: Toyota
-  
-
-  
  </td>
 </tr>
 <tr>
@@ -236,7 +243,7 @@
 
 </div>
 </div>
-   <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quidem voluptates ipsum, eaque inventore nostrum beatae illum pariatur itaque perferendis magni, aspernatur culpa? Illum voluptate dolore autem rerum quisquam perferendis.</p> -->
+</section>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script>
     AOS.init();

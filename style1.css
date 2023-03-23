@@ -1,7 +1,11 @@
 /* import 'car-makes-icons/dist/style.css'; */
 *{
   margin-left: 0px;
+  /* font-family: 'Montserrat', sans-serif; */
   /* margin-top: 0px; */
+}
+body{
+  font-family: 'Montserrat', sans-serif;
 }
 .vehicle {
     position: absolute;
@@ -11,7 +15,8 @@
     text-align: center;
     /* transform: translate(-50%, -50%); */
     font-size: 60px;
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Montserrat', sans-serif;
     /* animation: 3s anim-flipX ease infinite; */
     background-color:black;
     color: yellow;
@@ -115,7 +120,7 @@ justify-content: space-between;
   }
   .table2{
     margin-top: 0px;
-    width: 396px;
+    width: 394px;
     height:350px;
     display: inline-block;
    border: 5px inset black;
