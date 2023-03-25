@@ -69,7 +69,7 @@ html{
     scroll-behavior: smooth;
 }
 .main-container{
-    background: url(images/background.png);
+    background: url(background.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -122,7 +122,7 @@ h1{
     height: 50%;
     background-position: center;
     margin-top: 60px;
-    margin-left:600px;
+    margin-left:900px;
 transform: translate(-50px,-50px);
     animation: zoom-in 3s linear;
 }
@@ -280,7 +280,7 @@ background: white;
 
 }
 .fast-booking{
-    background: url(images/secbg.png);
+    background: url(secbg.png);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -335,7 +335,7 @@ background: white;
 }
 
 .testimonials{
-    background: url(images/testimonial\ back.png);
+    background: url(testimonial\ back.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -378,44 +378,9 @@ background: white;
     
 }
 
-@media (max-width:768px) {
-    html{
-        font-size: 50%;
-    }
-    #menu-bars{
-        display: initial;
-    
-    }
-    .navbar{
-        position: absolute;
-        top: -100%;
-        right: 0;
-        left: 0;
-    }
-    .navbar a{
-        
-        display: block;
-        font-size: 1.5rem;
-        background: #ffc61a;
-        margin: 1rem;
-        padding: 1rem;
 
-    }
-    .header{
-        padding: 2rem;
-    }
-    .tarrif-container{
-        padding-bottom: 4rem;
-    }
-    .tarrif-container img{
-        width: 60%;
-        margin-top: 0px;
-    }
-    .background-text h2{
-        width: 100%;
-        text-align: center;
-    }
-}
+   
+
 footer{
     background-color:#ffc61a;
     color: white;
@@ -460,38 +425,6 @@ footer{
     opacity:0.8;
   }
   
-  @media (max-width:767px) {
-    .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
-    }
-  }
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
-    }
-  }
-  
-  .footer-dark .item.text p {
-    opacity:0.6;
-    margin-bottom:0;
-  }
-  
-  .footer-dark .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
-    .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
-    }
-  }
   
   .footer-basic {
     color: white;
@@ -588,20 +521,96 @@ footer{
     background-color: yellow;
   }
   
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
   
-    .list-inline-item{
-        margin-top: 200px;
-        color:black;
-        font-size: 25px;
+@media (max-width:1024px){
+    div.navbar{
+width: 1024px;
     }
+    h1.centered{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    
+}
 
-    section{
-        width: 100%;
-        background-color: grey;
+    @media(max-width:768px){
+        div.navbar{
+            width: 768px;
+        }
+        h1.centered{
+            font-size: 20px;
+        }
+        /* .navbar{
+            width:770px;
+
+        } */
+        .navbar a{
+            font-size: 15px;
+        }
+        .taxi-image{
+            margin-left: -270px;
+        }
+        .taxi-image img{
+            /* margin-left:30px; */
+        }
+        .home-container{
+            width: 768px;
+        }
+        .form-heading h1{
+            font-size: small;
+            text-align: center;
+            margin-left: -60px;
+        }
     }
+    @media (max-width:425px){
+    div.navbar{
+            width: 420px;
+        }
+        .navbar a{
+            font-size: 10px;
+            margin-left: 0px;
+        }
+        .home-container{
+            width: 650px;
+        }
+        .taxi-image{
+            width: 300px;
+            margin-left: -300px;
+        }
+        .main-tariff{
+            padding-left: 150px;
+        }
+        .inner-box{
+width: 400px;
+/* margin-left: 7
+0px; */
+        }
+        .main-container{
+            background: url(background.png);
+            background-position: center;
+            background-size: cover;
+            width: 650px;
+            height: 100vh;
+        }
+        .fast-booking{
+            width: 650px;
+        }
+        .heading-test{
+            width: 650px;
+        }
+        .testimonials{
+            width: 650px;
+        }
+        .footer-basic{
+            width: 650px;
+        }
+    }
+@media (max-width:1024px) {
+    .navbar{
+        width: 1024px;
+    }
+    .taxi-image img{
+        margin-left: 536px;
+    }
+    
+}
