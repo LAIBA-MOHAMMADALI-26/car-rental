@@ -161,6 +161,10 @@ justify-content: space-between;
     border-radius: 5px;
 
   }
+
+  #details{
+    font-size:25px;
+  }
   button:hover{
     background-color:blue;
   }
@@ -219,6 +223,12 @@ margin-top: 0px;
   background-color: yellow;
 }
 
+/* @media(max-width:1440px){
+  .navbar{
+    width: 1440px;
+  }
+} */
+
 @media screen and (max-width: 500px) {
   .nav a {
     float: none;
@@ -233,16 +243,29 @@ margin-top: 0px;
   }
 
 /* media queries */
+
+@media(max-width:1440px){
+  .navbar{
+    width: 1440px;
+  }
+  h1.vehicle{
+    width: 1440px;
+  }
+}
   @media (max-width:1024px){
     .navbar{
-         width:1200px;
+         width:1024px;
+    }
+    .navbar a{
+      padding: 5px;
     }
     h1.vehicle{
-      width: 1200px;
+      /* width: 1024px; */
+      font-size: 50px;
       
     }
     table.tab{
-      width: 150px;
+      width: 140px;
       font-size: 10px;
     }
     /* .card{
@@ -270,8 +293,94 @@ margin-top: 0px;
     }
   }
   @media (max-width:768px){
-    /* h1.vehicle{
-      width: 1100px;
+
+
+    .navbar{
+      width: 768px;
+      height: 40px;
+    }
+    .navbar a{
+    font-size: 10px;
+    }
+
+    h1.vehicle{
+      width: 768px;
+      font-size: 30px;
+      text-align: center;
       
-    } */
+    }
+   div.card{
+    margin-left: 20px;
+    width: 500px;
+   }
+   table.table2{
+    width: 295px;
+   }
+   div.card img{
+    width:200px;
+   }
+   table.table2 td{
+    font-size:15px;
+    text-align: center;
+   }
+  }
+
+  @media (max-width:425px){
+    .navbar{
+      width: 425px;
+    }
+    .navbar a{
+      font-size: 8px;
+      padding: 5px;
+    }
+    h1.vehicle{
+      width: 425px;
+      font-size: 15px;
+    }
+    .cars{
+      margin-top: 95px;
+    }
+    table.tab{
+      width: 100px;
+      margin-top: 10px;
+    }
+    .tab th{
+      font-size: 10px;
+    }
+    .tab td{
+      font-size: 10px;
+    }
+    div.card{
+      width: 230px;
+      height: 150px;
+    }
+    div.card img{
+      width: 100px;
+      height: 150px;
+    }
+    table.table2{
+      width: 125px;
+      height: 150px;
+border: 2px solid black;
+
+    }
+    table.table2 tr{
+      height: 10px;
+    }
+    button{
+      height: 20px;
+      width: 50px;
+      font-size: 10px;
+    }
+    table.table2 td{
+      font-size: 7px;
+      height: 5px;
+      padding: 0px;
+    }
+    table.table2 th{
+      font-size: 10px;
+    }
+    table.table2 th{
+      font-size: 5px;
+    }
   }
